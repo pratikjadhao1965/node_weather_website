@@ -5,6 +5,7 @@ const geoLocation=require('./utils/geoLocation')
 const forecast=require('./utils/forecast.js') 
 //create app instance
 const app=express()
+const pirt=process.env.PORT || 3000
 
 //to setup pathsn for express config
 const publicDirPath=path.join(__dirname,"../public")
